@@ -1,15 +1,7 @@
 const settings = require("./settings");
 const arg = process.argv.slice(2)[0];
 
-const knex = require('knex') ({
-  client: 'pg',
-  connection: {
-    host: settings.hostname,
-    user: settings.user,
-    password: settings.password,
-    database: settings.database
-  }
-});
+const knex = require('knex') (require('./knexfile').development);
 
 const getInfo = (result) => {
   let info = `Searching ...\n`;
