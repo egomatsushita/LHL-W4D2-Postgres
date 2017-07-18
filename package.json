@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "knew": "0.0.0",
     "pg": "^7.0.0"
   }
 }
