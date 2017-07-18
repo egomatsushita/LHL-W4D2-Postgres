@@ -1,0 +1,17 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "Connect a PostgreeSQL database form JS directly using the native pg driver.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgreSQL"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.0.0"
+  }
+}
