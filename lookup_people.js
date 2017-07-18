@@ -42,3 +42,5 @@ client.connect((err) => {
     client.end();
   });
 });
+
+module.exports = getInfo;
